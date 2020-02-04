@@ -57,6 +57,6 @@ class TicTacToe
       turn
     end
     display_board
-    binding,pry
+    binding.pry
   end
 end
