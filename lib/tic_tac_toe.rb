@@ -3,7 +3,7 @@ require 'pry'
 class TicTacToe
   attr_accessor :board
 
-  def initialize(board = nil)
+  def initialize(board)
     @board = board || Array.new(9, " ")
   end
 
