@@ -59,3 +59,4 @@ class TicTacToe
     display_board
   end
 end
+binding.pry
