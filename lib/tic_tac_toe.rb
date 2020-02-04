@@ -63,4 +63,7 @@ class TicTacToe
     turn_count.even? ? "X" : "O"
   end
 
+  def won?
+  end
+
 end
