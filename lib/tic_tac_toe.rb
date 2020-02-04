@@ -44,7 +44,6 @@ class TicTacToe
 
   def turn_count
     @board.count{|token| token == "X" || token == "O"}
-    binding.pry
   end
 
   def turn
