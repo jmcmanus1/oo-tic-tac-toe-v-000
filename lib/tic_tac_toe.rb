@@ -1,7 +1,7 @@
 require 'pry'
 
 class TicTacToe
-  attr_accessor :board
+  attr_accessor :board :user_input
 
   WIN_COMBINATIONS = [
   [0,1,2],
@@ -27,5 +27,6 @@ class TicTacToe
   end
 
   def input_to_index
+
   end
 end
