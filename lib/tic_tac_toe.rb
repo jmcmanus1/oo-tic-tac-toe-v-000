@@ -1,7 +1,7 @@
 require 'pry'
 
 class TicTacToe
-  attr_accessor :board :user_input
+  attr_accessor :board, :user_input
 
   WIN_COMBINATIONS = [
   [0,1,2],
